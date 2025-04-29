@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title> My Movie Theater </title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <h1> Welcome to Cinema 😊</h1>
+
+  <div class="screen">
+    <video controls width="700px" height="500px">
+      <source src="mah.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="buttons">
+    <button onclick="document.querySelector('video').currentTime = 0; document.querySelector('video').play();">🔁 Play Again</button>
+    <button onclick="alert('⭐ Thank you!')">⭐ Rate Movie</button>
+  </div>
+
+</body>
+</html>
+
